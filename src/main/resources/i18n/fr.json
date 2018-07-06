@@ -185,5 +185,6 @@
   "wizard.finish": "Créer",
   "pages.websites.removed": "Les projets ont été supprimés",
   "pages.default.content": "<h1>Construisez votre page</h1><ul><li>Vous pouvez entrer ici les informations que vous voulez : cliquez dans un encart de texte comme celui-ci pour en modifier le contenu.​</li><li>Utilisez le menu sur la droite de l’application pour glisser-déposer du contenu dans votre page.</li></ul><hr /><div class=\"row\"><video style=\"max-width: 70%; display: block; margin: auto\" controls src=\"/pages/public/tutorial.mp4\"></video></div><hr /><h1>Naviguez dans votre page</h1><ul><li>La navigation de gauche sera complétée automatiquement au fur et à mesure que vous ajouterez des pages.​</li><li>Vous avez la possibilité de publier ou dé-publier votre page à tout moment de son édition afin d’en contrôler la visibilité.</li></ul>",
-  "pages.default.column": "<h2>Une colonne</h2><p>Cette colonne de texte vous permet d'entrer du contenu dans votre projet. Vous pouvez changer sa largeur en déplaçant sa bordure à droite ou à gauche. Vous pouvez aussi la déplacer en faisant un glisser-déposer.</p>"
+  "pages.default.column": "<h2>Une colonne</h2><p>Cette colonne de texte vous permet d'entrer du contenu dans votre projet. Vous pouvez changer sa largeur en déplaçant sa bordure à droite ou à gauche. Vous pouvez aussi la déplacer en faisant un glisser-déposer.</p>",
+  "pages.push.notif.shared.body": "{0} vous a partagé une page"
 }
