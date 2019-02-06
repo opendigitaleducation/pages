@@ -22,19 +22,15 @@
 
 package fr.wseduc.pages.service.impl;
 
+import io.vertx.core.Vertx;
 import org.entcore.common.service.impl.MongoDbRepositoryEvents;
 import io.vertx.core.Handler;
 import io.vertx.core.json.JsonArray;
 
 public class PagesRepositoryEvents extends MongoDbRepositoryEvents {
 
-	public PagesRepositoryEvents() {
-		super("fr-wseduc-pages-controllers-PagesController|delete");
-	}
-
-	@Override
-	public void exportResources(String exportId, String userId, JsonArray groups, String exportPath, String locale, String host, final Handler<Boolean> handler) {
-
+	public PagesRepositoryEvents(Vertx vertx) {
+		super(vertx,"fr-wseduc-pages-controllers-PagesController|delete",null,null);
 	}
 
 }

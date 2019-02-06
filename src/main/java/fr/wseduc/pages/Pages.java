@@ -38,7 +38,7 @@ public class Pages extends BaseServer {
 		super.start();
 		
 		setDefaultResourceFilter(new ShareAndOwner());
-		setRepositoryEvents(new PagesRepositoryEvents());
+		setRepositoryEvents(new PagesRepositoryEvents(vertx));
 		addController(new PagesController());
         addController(new FoldersController("pagesFolders"));
 
