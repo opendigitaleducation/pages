@@ -1,5 +1,5 @@
     {
-      "name": "fr.wseduc~pages~1.7-SNAPSHOT",
+      "name": "fr.wseduc~pages~1.7-bpr-SNAPSHOT",
       "config": {
         "main" : "fr.wseduc.pages.Pages",
         "port" : 8025,
